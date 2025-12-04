@@ -1644,6 +1644,8 @@ export interface DocumentDecoration extends Partial<OpenAPIV3.OperationObject> {
 	 * Pass `true` to hide route from OpenAPI/swagger document
 	 * */
 	hide?: boolean
+
+	[k: string]: any
 }
 
 export type ResolveHandler<
